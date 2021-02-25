@@ -67,20 +67,22 @@ class _TopChannelsState extends State<TopChannels> {
                         width: 50.0,
                         height: 50.0,
                         decoration: BoxDecoration(
-                            shape: BoxShape.circle,
-                            boxShadow: [
-                              BoxShadow(
-                                  color: Colors.black12,
-                                  blurRadius: 5.0,
-                                  spreadRadius: 1.0,
-                                  offset: Offset(1.0, 1.0))
-                            ],
-                            image: DecorationImage(
-                                fit: BoxFit.cover,
-                                image: AssetImage("assets/images/${sources[index].id}.png",)
-                            ),),
-                          // image: AssetImage(
-                          //     "assets/images/${sources[index].id}.png")
+                          shape: BoxShape.circle,
+                          boxShadow: [
+                            BoxShadow(
+                                color: Colors.black12,
+                                blurRadius: 5.0,
+                                spreadRadius: 1.0,
+                                offset: Offset(1.0, 1.0))
+                          ],
+                          image: DecorationImage(
+                              fit: BoxFit.cover,
+                              image: AssetImage(
+                                "assets/images/${sources[index].id}.png",
+                              )),
+                        ),
+                        // image: AssetImage(
+                        //     "assets/images/${sources[index].id}.png")
                       ),
                     ),
                     SizedBox(

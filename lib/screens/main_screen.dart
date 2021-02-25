@@ -120,9 +120,7 @@ class _MainScreenState extends State<MainScreen> {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
-        children: [
-          Text("Test Screen")
-        ],
+        children: [Text("Test Screen")],
       ),
     );
   }

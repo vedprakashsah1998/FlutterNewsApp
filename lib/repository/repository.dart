@@ -70,6 +70,7 @@ class NewsRepository {
       Response response =
           await _dio.get(getTopHeadlinesUrl, queryParameters: param);
 
+
       return ArticleResponse.fromJson(response.data);
     } catch (error, stackTrace) {
       print("Exception aa gaya hai: $error stacktrace : $stackTrace");

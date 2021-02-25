@@ -44,8 +44,7 @@ class _HeadlineSliderState extends State<HeadlineSlider> {
     return Container(
       child: CarouselSlider(
         options: CarouselOptions(
-            enlargeCenterPage: false, height: 200.0, viewportFraction: 0.9
-        ),
+            enlargeCenterPage: false, height: 200.0, viewportFraction: 0.9),
         items: getExpenseSlider(articles),
       ),
     );
@@ -70,8 +69,7 @@ class _HeadlineSliderState extends State<HeadlineSlider> {
                             fit: BoxFit.cover,
                             image: article.img == null
                                 ? AssetImage('assets/images/placeholder.png')
-                                : NetworkImage(article.img)
-                        )),
+                                : NetworkImage(article.img))),
                   ),
                   Container(
                     decoration: BoxDecoration(

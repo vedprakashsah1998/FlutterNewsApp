@@ -1,5 +1,4 @@
 import 'package:flutter/cupertino.dart';
-import 'package:news_app/model/article_response.dart';
 import 'package:news_app/model/source_response.dart';
 import 'package:news_app/repository/repository.dart';
 import 'package:rxdart/rxdart.dart';
